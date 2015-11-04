@@ -1,2 +1,11 @@
 general:
   build_dir: api
+deployment:
+  production:
+    branch: production
+    commands:
+      - ./deploy_prod.sh
+  staging:
+    branch: master
+    commands:
+      - ./deploy_staging.sh
