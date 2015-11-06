@@ -1,6 +1,4 @@
 general:
-  build_dir: api
-general:
   artifacts:
     - "~/thanhnb" 
 test:
