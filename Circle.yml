@@ -1,6 +1,7 @@
 general:
-  artifacts:
-    - "~/thanhnb" 
+  branches:
+    only:
+      - master # list of branches to build
 test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
