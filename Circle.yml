@@ -1,5 +1,8 @@
 general:
   build_dir: api
+general:
+  artifacts:
+    - "~/thanhnb" 
 test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
